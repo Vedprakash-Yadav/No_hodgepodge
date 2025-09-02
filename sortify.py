@@ -54,20 +54,20 @@ def select_folder_and_organize():
 # GUI
 def main():
     root = tk.Tk()
-    root.title("No_hodgepodge - File Organizer")
-    root.geometry("400x200")
+    root.title("Sortify - File Organizer")
+    root.geometry("800x400")
     root.configure(bg="#fdf6f0")
 
-    title = tk.Label(root, text="No_hodgepodge", font=("Helvetica", 20, "bold"), bg="#fdf6f0", fg="#d63384")
+    title = tk.Label(root, text="Sortify", font=("Helvetica", 36, "bold"), bg="#fdf6f0", fg="#d63384")
     title.pack(pady=20)
 
     organize_btn = tk.Button(
         root,
         text="Select Folder to Organize",
         command=select_folder_and_organize,
-        font=("Helvetica", 12),
+        font=("Helvetica", 18),
         bg="#d63384",
-        fg="white",
+        fg="black",
         padx=10,
         pady=10
     )
