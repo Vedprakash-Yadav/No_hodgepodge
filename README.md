@@ -8,7 +8,7 @@ like **Images, Documents, Videos, Music, Archives, Executables, Code, and Others
 
 ## 🚀 Features  
 - Organizes files into predefined categories based on extensions.  
-- Creates subfolders automatically (e.g., Images, Documents, Music, etc.).  
+- Creates subfolders automatically (e.g., Images, Documents, Music, Archives , Codes etc.).  
 - User-friendly GUI with a clean design.  
 - Works with just **one click** – no complicated setup.  
 - Handles unknown file types by placing them in the **Others** folder.  
@@ -16,7 +16,20 @@ like **Images, Documents, Videos, Music, Archives, Executables, Code, and Others
 ---
 
 ## 📸 Screenshot  
-*(Add your screenshot here)*  
+- **Before Sortify**  
+  ![unorganized](images/beforeSortify.png)
+
+- **Sortify window**  
+  ![sortify](images/window.png)  
+
+- **Folder selection**  
+  ![folderSelection](images/selectFolder.png)  
+
+- **Organised sucessfully**  
+  ![done](images/organized.png)
+
+  - **After Sortify**  
+  ![organized folder](images/afterSortify.png)  
 
 ---
 
@@ -24,7 +37,7 @@ like **Images, Documents, Videos, Music, Archives, Executables, Code, and Others
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sortify.git
+git clone https://github.com/Vedprakash-Yadav/sortify.git
 cd sortify
 
 # Run the application
